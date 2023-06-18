@@ -1,2 +1,1 @@
-# LocalCoding
 # Python Practice
