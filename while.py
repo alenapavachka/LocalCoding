@@ -49,3 +49,16 @@ while num >= 1:
     num -= 1
 st = st[:-4]
 print(st)
+
+# Student learning progress
+days = 1
+words = 5
+progress = 2
+while days <= 22:
+    words = words + progress
+    days += 1
+    progress += 2
+print(words)
+
+# Jogger running progress
+
