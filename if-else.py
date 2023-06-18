@@ -1,4 +1,4 @@
-# #1
+# 1
 
 char = input("Enter a character here: ")  
 vowels = "a,e,i,o,u, y"
@@ -8,7 +8,7 @@ else:
     print("not a vowel")
 
 
-# #2
+# 2
 
 name = input("Enter the name here: ")
 vowels2 = "a,e,i,o,u,"
@@ -18,7 +18,7 @@ else:
     print("Name starts with a vowel") 
 
 
-#3 
+# 3
 
 string = input("Enter your text here: ")
 range = "1,2,3,4,5,6,7,8,9"
@@ -27,7 +27,7 @@ if string[-1] in range:
 else:
     print('false')  
 
-#4
+# 4
 
 username = input('Enter your name: ')
 if len(username) > 5:
@@ -36,7 +36,7 @@ else:
     print("Your name is short!")         
 
 
-#5
+# 5
 
 answer  = input('Are you ok? ')
 
@@ -45,7 +45,7 @@ if answer =='No' or answer=='no':
 else:
     print('Cool!')    
 
-#6
+# 6
 
 a = int(input('Enter your first number: '))
 b = int(input('Enter your second number: '))
@@ -55,17 +55,17 @@ else:
     print('no')
 
 
-#7
+# 7
 
 user_name = input("Enter your name: ")
 time = int(input('Enter the time in digits from 0-24: '))
-if  0<=time<=6:
+if 0 <= time <= 6:
     print('Good night, ', user_name)
-elif 7<=time<=11:
+elif 7 <= time <= 11:
     print('Good morning, ', user_name)
-elif 12<=time<=18:
+elif 12 <= time <= 18:
     print('Good day, ', user_name)
-elif 19<=time<=24:
+elif 19 <= time <= 24:
      print('Good evening, ', user_name)
 else:
     print('Wrong time')    
