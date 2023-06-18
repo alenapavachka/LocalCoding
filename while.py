@@ -59,6 +59,3 @@ while days <= 22:
     days += 1
     progress += 2
 print(words)
-
-# Jogger running progress
-
